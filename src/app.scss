@@ -1,6 +1,8 @@
 $colore_primario: #0cd977;
 $colore_secondario: #001632;
 $default_value: 0;
+$font_grande: 36px;
+$font_piccolo: 18px;
 
 body {
     padding: $default_value;
@@ -20,6 +22,14 @@ main {
     flex-direction: column;
     align-items: center;
     color: $colore_secondario;
+}
+
+h1, h2 {
+    font-size: $font_grande;
+}
+
+p {
+    font-size: $font_piccolo;
 }
 
 .mini_container {
